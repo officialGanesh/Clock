@@ -16,6 +16,7 @@ function clock(){
     min.innerHTML = mn;
     sec.innerHTML = sc;
     
+    // Check for hours
     if(hr===0){
         hr = 12;
         hour.innerHTML = hr;
@@ -31,11 +32,22 @@ function clock(){
         noon.innerHTML = "PM"
     };
 
+    // Check for minutes
+
+    if(mn<10){
+        min.innerHTML = `0${mn}`
+    };
+
+    // Check for seconds
+
+    if(sc<10){
+        sec.innerHTML = `0${sc}`
+    };
+
 };
 
 function mainFunction(){
     setInterval("clock()",1000);
 };
-
 
 mainFunction()
