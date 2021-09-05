@@ -17,16 +17,23 @@
 
 #title{
     font-family: 'Roboto Mono', monospace;
-    font-size: 4rem;
-    font-weight:25vh;
-    margin-top:10rem;
+    font-size: 3rem;
+    margin-top:5rem;
     margin-left: 3rem;
-    
 }
 
 .params{
+    
     display:inline-block;
-    font-size: 7rem;
+    font-size: 10rem;
+    margin-top: 2rem;
     padding: 2rem;
+    margin:5px ;
+    
 }
 
+.clns{
+
+    font-weight: 25rem;
+    color: white;
+}
