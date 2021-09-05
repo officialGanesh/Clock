@@ -4,6 +4,7 @@ let hour = document.getElementById('hour');
 let min = document.getElementById('min');
 let sec = document.getElementById('sec');
 let noon = document.getElementById('noon');
+let date = document.getElementById('date');
 
 
 function clock(){
@@ -12,6 +13,7 @@ function clock(){
     let  mn = newDate.getMinutes();
     let  sc = newDate.getSeconds();
     
+    date.innerHTML = `${newDate.toDateString()}`
     hour.innerHTML = hr;
     min.innerHTML = mn;
     sec.innerHTML = sc;
