@@ -3,7 +3,6 @@ console.log("Clock Using Javacript 🚀");
 let hour = document.getElementById('hour');
 let min = document.getElementById('min');
 let sec = document.getElementById('sec');
-let noon = document.getElementById('noon');
 let date = document.getElementById('date');
 
 
