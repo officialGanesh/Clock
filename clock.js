@@ -24,14 +24,14 @@ function clock(){
         hour.innerHTML = hr;
     };
 
-    if(hr<12){
+    if(hr<10){
         hour.innerHTML = `0${hr}`;
-        noon.innerHTML = "AM"
+        
     };
 
-    if(hr>12){
-        hour.innerHTML = `0${hr-12}`;
-        noon.innerHTML = "PM"
+    if(hr>10){
+        hour.innerHTML = hr;
+        
     };
 
     // Check for minutes

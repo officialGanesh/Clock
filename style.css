@@ -2,9 +2,8 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
-    /* background-image: url('Background.png'); */
     background-color: #7cffcb;
-    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+    background-image: linear-gradient(420deg, #7cffcb 0%, #74f2ce 74%);
 
 }
 
@@ -18,8 +17,9 @@
 #title{
     font-family: 'Roboto Mono', monospace;
     font-size: 3rem;
-    margin-top:5rem;
+    margin-top:10rem;
     margin-left: 3rem;
+    margin-bottom: 3rem;
 }
 
 .params{
