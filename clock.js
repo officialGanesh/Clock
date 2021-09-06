@@ -3,6 +3,7 @@ console.log("Clock Using Javacript 🚀");
 let hour = document.getElementById('hour');
 let min = document.getElementById('min');
 let sec = document.getElementById('sec');
+let noon = document.getElementById("noon");
 let date = document.getElementById('date');
 
 
@@ -13,10 +14,10 @@ function clock(){
     let  sc = newDate.getSeconds();
     
     date.innerHTML = `${newDate.toDateString()}`
+    noon.innerHTML = `${newDate.toLocaleTimeString('en-us').split(" ")[1]}`
     hour.innerHTML = hr;
     min.innerHTML = mn;
     sec.innerHTML = sc;
-    
     // Check for hours
     if(hr===0){
         hr = 12;
